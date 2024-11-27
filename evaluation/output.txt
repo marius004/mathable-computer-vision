@@ -1,0 +1,609 @@
+9H 8
+9H 8
+Imaginea:  1_01 Puncte task 1:  0.025 Puncte task 2:  0.01
+10H 32
+10H 32
+Imaginea:  1_02 Puncte task 1:  0.025 Puncte task 2:  0.01
+11H 40
+11H 40
+Imaginea:  1_03 Puncte task 1:  0.025 Puncte task 2:  0.01
+12H 72
+12H 72
+Imaginea:  1_04 Puncte task 1:  0.025 Puncte task 2:  0.01
+6H 8
+6H 8
+Imaginea:  1_05 Puncte task 1:  0.025 Puncte task 2:  0.01
+5H 10
+5H 10
+Imaginea:  1_06 Puncte task 1:  0.025 Puncte task 2:  0.01
+4H 80
+4H 80
+Imaginea:  1_07 Puncte task 1:  0.025 Puncte task 2:  0.01
+3H 8
+3H 8
+Imaginea:  1_08 Puncte task 1:  0.025 Puncte task 2:  0.01
+2H 10
+2H 10
+Imaginea:  1_09 Puncte task 1:  0.025 Puncte task 2:  0.01
+1H 18
+1H 18
+Imaginea:  1_10 Puncte task 1:  0.025 Puncte task 2:  0.01
+6G 3
+6G 3
+Imaginea:  1_11 Puncte task 1:  0.025 Puncte task 2:  0.01
+6F 11
+6F 11
+Imaginea:  1_12 Puncte task 1:  0.025 Puncte task 2:  0.01
+6E 14
+6E 14
+Imaginea:  1_13 Puncte task 1:  0.025 Puncte task 2:  0.01
+6I 5
+6I 5
+Imaginea:  1_14 Puncte task 1:  0.025 Puncte task 2:  0.01
+6J 3
+6J 3
+Imaginea:  1_15 Puncte task 1:  0.025 Puncte task 2:  0.01
+6K 15
+6K 15
+Imaginea:  1_16 Puncte task 1:  0.025 Puncte task 2:  0.01
+6L 12
+6L 12
+Imaginea:  1_17 Puncte task 1:  0.025 Puncte task 2:  0.01
+7I 3
+7I 3
+Imaginea:  1_18 Puncte task 1:  0.025 Puncte task 2:  0.01
+8I 7
+8I 7
+Imaginea:  1_19 Puncte task 1:  0.025 Puncte task 2:  0.01
+7J 6
+7J 6
+Imaginea:  1_20 Puncte task 1:  0.025 Puncte task 2:  0.01
+5J 9
+5J 9
+Imaginea:  1_21 Puncte task 1:  0.025 Puncte task 2:  0.01
+7K 9
+7K 9
+Imaginea:  1_22 Puncte task 1:  0.025 Puncte task 2:  0.01
+7L 3
+7L 3
+Imaginea:  1_23 Puncte task 1:  0.025 Puncte task 2:  0.01
+6D 3
+6D 3
+Imaginea:  1_24 Puncte task 1:  0.025 Puncte task 2:  0.01
+9I 10
+9I 10
+Imaginea:  1_25 Puncte task 1:  0.025 Puncte task 2:  0.01
+10I 17
+10I 17
+Imaginea:  1_26 Puncte task 1:  0.025 Puncte task 2:  0.01
+10J 49
+10J 49
+Imaginea:  1_27 Puncte task 1:  0.025 Puncte task 2:  0.01
+8J 9
+8J 9
+Imaginea:  1_28 Puncte task 1:  0.025 Puncte task 2:  0.01
+8K 63
+8K 63
+Imaginea:  1_29 Puncte task 1:  0.025 Puncte task 2:  0.01
+9K 54
+9K 54
+Imaginea:  1_30 Puncte task 1:  0.025 Puncte task 2:  0.01
+5L 36
+5L 36
+Imaginea:  1_31 Puncte task 1:  0.025 Puncte task 2:  0.01
+4L 48
+4L 48
+Imaginea:  1_32 Puncte task 1:  0.025 Puncte task 2:  0.01
+6M 27
+6M 27
+Imaginea:  1_33 Puncte task 1:  0.025 Puncte task 2:  0.01
+4J 6
+4J 6
+Imaginea:  1_34 Puncte task 1:  0.025 Puncte task 2:  0.01
+8F 7
+8F 7
+Imaginea:  1_35 Puncte task 1:  0.025 Puncte task 2:  0.01
+3J 3
+3J 3
+Imaginea:  1_36 Puncte task 1:  0.025 Puncte task 2:  0.01
+2J 2
+2J 2
+Imaginea:  1_37 Puncte task 1:  0.025 Puncte task 2:  0.01
+1J 5
+1J 5
+Imaginea:  1_38 Puncte task 1:  0.025 Puncte task 2:  0.01
+11I 7
+11I 7
+Imaginea:  1_39 Puncte task 1:  0.025 Puncte task 2:  0.01
+12I 10
+12I 10
+Imaginea:  1_40 Puncte task 1:  0.025 Puncte task 2:  0.01
+13I 70
+13I 70
+Imaginea:  1_41 Puncte task 1:  0.025 Puncte task 2:  0.01
+14I 60
+14I 60
+Imaginea:  1_42 Puncte task 1:  0.025 Puncte task 2:  0.01
+9G 2
+9G 2
+Imaginea:  1_43 Puncte task 1:  0.025 Puncte task 2:  0.01
+10G 5
+10G 5
+Imaginea:  1_44 Puncte task 1:  0.025 Puncte task 2:  0.01
+9F 10
+9F 10
+Imaginea:  1_45 Puncte task 1:  0.025 Puncte task 2:  0.01
+10F 3
+10F 3
+Imaginea:  1_46 Puncte task 1:  0.025 Puncte task 2:  0.01
+10E 8
+10E 8
+Imaginea:  1_47 Puncte task 1:  0.025 Puncte task 2:  0.01
+10D 5
+10D 5
+Imaginea:  1_48 Puncte task 1:  0.025 Puncte task 2:  0.01
+9E 8
+9E 8
+Imaginea:  1_49 Puncte task 1:  0.025 Puncte task 2:  0.01
+11E 0
+11E 0
+Imaginea:  1_50 Puncte task 1:  0.025 Puncte task 2:  0.01
+Puncte task 3  0.5199999999999999
+Total puncte =  2.2699999999999987
+7I 3
+7I 3
+Imaginea:  2_01 Puncte task 1:  0.025 Puncte task 2:  0.01
+7J 6
+7J 6
+Imaginea:  2_02 Puncte task 1:  0.025 Puncte task 2:  0.01
+7K 9
+7K 9
+Imaginea:  2_03 Puncte task 1:  0.025 Puncte task 2:  0.01
+7L 15
+7L 15
+Imaginea:  2_04 Puncte task 1:  0.025 Puncte task 2:  0.01
+7M 6
+7M 6
+Imaginea:  2_05 Puncte task 1:  0.025 Puncte task 2:  0.01
+7N 90
+7N 90
+Imaginea:  2_06 Puncte task 1:  0.025 Puncte task 2:  0.01
+7F 3
+7F 3
+Imaginea:  2_07 Puncte task 1:  0.025 Puncte task 2:  0.01
+8I 7
+8I 7
+Imaginea:  2_08 Puncte task 1:  0.025 Puncte task 2:  0.01
+9I 21
+9I 21
+Imaginea:  2_09 Puncte task 1:  0.025 Puncte task 2:  0.01
+9H 6
+9H 6
+Imaginea:  2_10 Puncte task 1:  0.025 Puncte task 2:  0.01
+9G 27
+9G 27
+Imaginea:  2_11 Puncte task 1:  0.025 Puncte task 2:  0.01
+10G 30
+10G 30
+Imaginea:  2_12 Puncte task 1:  0.025 Puncte task 2:  0.01
+10H 24
+10H 24
+Imaginea:  2_13 Puncte task 1:  0.025 Puncte task 2:  0.01
+10I 54
+10I 54
+Imaginea:  2_14 Puncte task 1:  0.025 Puncte task 2:  0.01
+10F 6
+10F 6
+Imaginea:  2_15 Puncte task 1:  0.025 Puncte task 2:  0.01
+6H 6
+6H 6
+Imaginea:  2_16 Puncte task 1:  0.025 Puncte task 2:  0.01
+6G 4
+6G 4
+Imaginea:  2_17 Puncte task 1:  0.025 Puncte task 2:  0.01
+6F 2
+6F 2
+Imaginea:  2_18 Puncte task 1:  0.025 Puncte task 2:  0.01
+8F 5
+8F 5
+Imaginea:  2_19 Puncte task 1:  0.025 Puncte task 2:  0.01
+9F 8
+9F 8
+Imaginea:  2_20 Puncte task 1:  0.025 Puncte task 2:  0.01
+9E 35
+9E 35
+Imaginea:  2_21 Puncte task 1:  0.025 Puncte task 2:  0.01
+7E 4
+7E 4
+Imaginea:  2_22 Puncte task 1:  0.025 Puncte task 2:  0.01
+6I 10
+6I 10
+Imaginea:  2_23 Puncte task 1:  0.025 Puncte task 2:  0.01
+5H 8
+5H 8
+Imaginea:  2_24 Puncte task 1:  0.025 Puncte task 2:  0.01
+4H 48
+4H 48
+Imaginea:  2_25 Puncte task 1:  0.025 Puncte task 2:  0.01
+3H 40
+3H 40
+Imaginea:  2_26 Puncte task 1:  0.025 Puncte task 2:  0.01
+2H 8
+2H 8
+Imaginea:  2_27 Puncte task 1:  0.025 Puncte task 2:  0.01
+1H 32
+1H 32
+Imaginea:  2_28 Puncte task 1:  0.025 Puncte task 2:  0.01
+6E 6
+6E 6
+Imaginea:  2_29 Puncte task 1:  0.025 Puncte task 2:  0.01
+7D 12
+7D 12
+Imaginea:  2_30 Puncte task 1:  0.025 Puncte task 2:  0.01
+7C 16
+7C 16
+Imaginea:  2_31 Puncte task 1:  0.025 Puncte task 2:  0.01
+7B 28
+7B 28
+Imaginea:  2_32 Puncte task 1:  0.025 Puncte task 2:  0.01
+5F 5
+5F 5
+Imaginea:  2_33 Puncte task 1:  0.025 Puncte task 2:  0.01
+5E 2
+5E 2
+Imaginea:  2_34 Puncte task 1:  0.025 Puncte task 2:  0.01
+5G 10
+5G 10
+Imaginea:  2_35 Puncte task 1:  0.025 Puncte task 2:  0.01
+4G 14
+4G 14
+Imaginea:  2_36 Puncte task 1:  0.025 Puncte task 2:  0.01
+3G 4
+3G 4
+Imaginea:  2_37 Puncte task 1:  0.025 Puncte task 2:  0.01
+2G 18
+2G 18
+Imaginea:  2_38 Puncte task 1:  0.025 Puncte task 2:  0.01
+2I 10
+2I 10
+Imaginea:  2_39 Puncte task 1:  0.025 Puncte task 2:  0.01
+3I 36
+3I 36
+Imaginea:  2_40 Puncte task 1:  0.025 Puncte task 2:  0.01
+6J 4
+6J 4
+Imaginea:  2_41 Puncte task 1:  0.025 Puncte task 2:  0.01
+3J 4
+3J 4
+Imaginea:  2_42 Puncte task 1:  0.025 Puncte task 2:  0.01
+8J 10
+8J 10
+Imaginea:  2_43 Puncte task 1:  0.025 Puncte task 2:  0.01
+8K 70
+8K 70
+Imaginea:  2_44 Puncte task 1:  0.025 Puncte task 2:  0.01
+5I 2
+5I 2
+Imaginea:  2_45 Puncte task 1:  0.025 Puncte task 2:  0.01
+5J 10
+5J 10
+Imaginea:  2_46 Puncte task 1:  0.025 Puncte task 2:  0.01
+5K 8
+5K 8
+Imaginea:  2_47 Puncte task 1:  0.025 Puncte task 2:  0.01
+11F 2
+11F 2
+Imaginea:  2_48 Puncte task 1:  0.025 Puncte task 2:  0.01
+12F 4
+12F 4
+Imaginea:  2_49 Puncte task 1:  0.025 Puncte task 2:  0.01
+13F 2
+13F 2
+Imaginea:  2_50 Puncte task 1:  0.025 Puncte task 2:  0.01
+Puncte task 3  0.43999999999999995
+Total puncte =  4.459999999999983
+7I 1
+7I 1
+Imaginea:  3_01 Puncte task 1:  0.025 Puncte task 2:  0.01
+8I 1
+8I 1
+Imaginea:  3_02 Puncte task 1:  0.025 Puncte task 2:  0.01
+6I 0
+6I 0
+Imaginea:  3_03 Puncte task 1:  0.025 Puncte task 2:  0.01
+8J 5
+8J 5
+Imaginea:  3_04 Puncte task 1:  0.025 Puncte task 2:  0.01
+7J 2
+7J 2
+Imaginea:  3_05 Puncte task 1:  0.025 Puncte task 2:  0.01
+7K 3
+7K 3
+Imaginea:  3_06 Puncte task 1:  0.025 Puncte task 2:  0.01
+8K 5
+8K 5
+Imaginea:  3_07 Puncte task 1:  0.025 Puncte task 2:  0.01
+6K 8
+6K 8
+Imaginea:  3_08 Puncte task 1:  0.025 Puncte task 2:  0.01
+6J 10
+6J 10
+Imaginea:  3_09 Puncte task 1:  0.025 Puncte task 2:  0.01
+5J 8
+5J 8
+Imaginea:  3_10 Puncte task 1:  0.025 Puncte task 2:  0.01
+4J 80
+4J 80
+Imaginea:  3_11 Puncte task 1:  0.025 Puncte task 2:  0.01
+5I 1
+5I 1
+Imaginea:  3_12 Puncte task 1:  0.025 Puncte task 2:  0.01
+4I 1
+4I 1
+Imaginea:  3_13 Puncte task 1:  0.025 Puncte task 2:  0.01
+4K 81
+4K 81
+Imaginea:  3_14 Puncte task 1:  0.025 Puncte task 2:  0.01
+3J 10
+3J 10
+Imaginea:  3_15 Puncte task 1:  0.025 Puncte task 2:  0.01
+7F 3
+7F 3
+Imaginea:  3_16 Puncte task 1:  0.025 Puncte task 2:  0.01
+7E 4
+7E 4
+Imaginea:  3_17 Puncte task 1:  0.025 Puncte task 2:  0.01
+7D 12
+7D 12
+Imaginea:  3_18 Puncte task 1:  0.025 Puncte task 2:  0.01
+6H 6
+6H 6
+Imaginea:  3_19 Puncte task 1:  0.025 Puncte task 2:  0.01
+5H 8
+5H 8
+Imaginea:  3_20 Puncte task 1:  0.025 Puncte task 2:  0.01
+4H 48
+4H 48
+Imaginea:  3_21 Puncte task 1:  0.025 Puncte task 2:  0.01
+4G 49
+4G 49
+Imaginea:  3_22 Puncte task 1:  0.025 Puncte task 2:  0.01
+4F 1
+4F 1
+Imaginea:  3_23 Puncte task 1:  0.025 Puncte task 2:  0.01
+8F 7
+8F 7
+Imaginea:  3_24 Puncte task 1:  0.025 Puncte task 2:  0.01
+9F 10
+9F 10
+Imaginea:  3_25 Puncte task 1:  0.025 Puncte task 2:  0.01
+10F 17
+10F 17
+Imaginea:  3_26 Puncte task 1:  0.025 Puncte task 2:  0.01
+9H 2
+9H 2
+Imaginea:  3_27 Puncte task 1:  0.025 Puncte task 2:  0.01
+10H 8
+10H 8
+Imaginea:  3_28 Puncte task 1:  0.025 Puncte task 2:  0.01
+11H 10
+11H 10
+Imaginea:  3_29 Puncte task 1:  0.025 Puncte task 2:  0.01
+12H 2
+12H 2
+Imaginea:  3_30 Puncte task 1:  0.025 Puncte task 2:  0.01
+9I 2
+9I 2
+Imaginea:  3_31 Puncte task 1:  0.025 Puncte task 2:  0.01
+10I 3
+10I 3
+Imaginea:  3_32 Puncte task 1:  0.025 Puncte task 2:  0.01
+10G 11
+10G 11
+Imaginea:  3_33 Puncte task 1:  0.025 Puncte task 2:  0.01
+10E 28
+10E 28
+Imaginea:  3_34 Puncte task 1:  0.025 Puncte task 2:  0.01
+11F 7
+11F 7
+Imaginea:  3_35 Puncte task 1:  0.025 Puncte task 2:  0.01
+10D 45
+10D 45
+Imaginea:  3_36 Puncte task 1:  0.025 Puncte task 2:  0.01
+12F 10
+12F 10
+Imaginea:  3_37 Puncte task 1:  0.025 Puncte task 2:  0.01
+6F 10
+6F 10
+Imaginea:  3_38 Puncte task 1:  0.025 Puncte task 2:  0.01
+6G 4
+6G 4
+Imaginea:  3_39 Puncte task 1:  0.025 Puncte task 2:  0.01
+8E 21
+8E 21
+Imaginea:  3_40 Puncte task 1:  0.025 Puncte task 2:  0.01
+6E 25
+6E 25
+Imaginea:  3_41 Puncte task 1:  0.025 Puncte task 2:  0.01
+6D 35
+6D 35
+Imaginea:  3_42 Puncte task 1:  0.025 Puncte task 2:  0.01
+6C 10
+6C 10
+Imaginea:  3_43 Puncte task 1:  0.025 Puncte task 2:  0.01
+7C 16
+7C 16
+Imaginea:  3_44 Puncte task 1:  0.025 Puncte task 2:  0.01
+13F 3
+13F 3
+Imaginea:  3_45 Puncte task 1:  0.025 Puncte task 2:  0.01
+7B 4
+7B 4
+Imaginea:  3_46 Puncte task 1:  0.025 Puncte task 2:  0.01
+7A 20
+7A 20
+Imaginea:  3_47 Puncte task 1:  0.025 Puncte task 2:  0.01
+5C 6
+5C 6
+Imaginea:  3_48 Puncte task 1:  0.025 Puncte task 2:  0.01
+11I 5
+11I 5
+Imaginea:  3_49 Puncte task 1:  0.025 Puncte task 2:  0.01
+11J 50
+11J 50
+Imaginea:  3_50 Puncte task 1:  0.025 Puncte task 2:  0.01
+Puncte task 3  0.43999999999999995
+Total puncte =  6.64999999999999
+7I 3
+7I 3
+Imaginea:  4_01 Puncte task 1:  0.025 Puncte task 2:  0.01
+7J 6
+7J 6
+Imaginea:  4_02 Puncte task 1:  0.025 Puncte task 2:  0.01
+6H 6
+6H 6
+Imaginea:  4_03 Puncte task 1:  0.025 Puncte task 2:  0.01
+5H 8
+5H 8
+Imaginea:  4_04 Puncte task 1:  0.025 Puncte task 2:  0.01
+9G 4
+9G 4
+Imaginea:  4_05 Puncte task 1:  0.025 Puncte task 2:  0.01
+8I 1
+8I 1
+Imaginea:  4_06 Puncte task 1:  0.025 Puncte task 2:  0.01
+8J 5
+8J 5
+Imaginea:  4_07 Puncte task 1:  0.025 Puncte task 2:  0.01
+7K 9
+7K 9
+Imaginea:  4_08 Puncte task 1:  0.025 Puncte task 2:  0.01
+8K 5
+8K 5
+Imaginea:  4_09 Puncte task 1:  0.025 Puncte task 2:  0.01
+4H 48
+4H 48
+Imaginea:  4_10 Puncte task 1:  0.025 Puncte task 2:  0.01
+3H 40
+3H 40
+Imaginea:  4_11 Puncte task 1:  0.025 Puncte task 2:  0.01
+2H 8
+2H 8
+Imaginea:  4_12 Puncte task 1:  0.025 Puncte task 2:  0.01
+1H 32
+1H 32
+Imaginea:  4_13 Puncte task 1:  0.025 Puncte task 2:  0.01
+10G 7
+10G 7
+Imaginea:  4_14 Puncte task 1:  0.025 Puncte task 2:  0.01
+11G 28
+11G 28
+Imaginea:  4_15 Puncte task 1:  0.025 Puncte task 2:  0.01
+12G 21
+12G 21
+Imaginea:  4_16 Puncte task 1:  0.025 Puncte task 2:  0.01
+13G 7
+13G 7
+Imaginea:  4_17 Puncte task 1:  0.025 Puncte task 2:  0.01
+14G 3
+14G 3
+Imaginea:  4_18 Puncte task 1:  0.025 Puncte task 2:  0.01
+9H 6
+9H 6
+Imaginea:  4_19 Puncte task 1:  0.025 Puncte task 2:  0.01
+10H 24
+10H 24
+Imaginea:  4_20 Puncte task 1:  0.025 Puncte task 2:  0.01
+11H 30
+11H 30
+Imaginea:  4_21 Puncte task 1:  0.025 Puncte task 2:  0.01
+12H 54
+12H 54
+Imaginea:  4_22 Puncte task 1:  0.025 Puncte task 2:  0.01
+9K 45
+9K 45
+Imaginea:  4_23 Puncte task 1:  0.025 Puncte task 2:  0.01
+8L 25
+8L 25
+Imaginea:  4_24 Puncte task 1:  0.025 Puncte task 2:  0.01
+8M 5
+8M 5
+Imaginea:  4_25 Puncte task 1:  0.025 Puncte task 2:  0.01
+8N 5
+8N 5
+Imaginea:  4_26 Puncte task 1:  0.025 Puncte task 2:  0.01
+7L 3
+7L 3
+Imaginea:  4_27 Puncte task 1:  0.025 Puncte task 2:  0.01
+7M 12
+7M 12
+Imaginea:  4_28 Puncte task 1:  0.025 Puncte task 2:  0.01
+7N 15
+7N 15
+Imaginea:  4_29 Puncte task 1:  0.025 Puncte task 2:  0.01
+9J 1
+9J 1
+Imaginea:  4_30 Puncte task 1:  0.025 Puncte task 2:  0.01
+10J 6
+10J 6
+Imaginea:  4_31 Puncte task 1:  0.025 Puncte task 2:  0.01
+6J 11
+6J 11
+Imaginea:  4_32 Puncte task 1:  0.025 Puncte task 2:  0.01
+5J 5
+5J 5
+Imaginea:  4_33 Puncte task 1:  0.025 Puncte task 2:  0.01
+4J 16
+4J 16
+Imaginea:  4_34 Puncte task 1:  0.025 Puncte task 2:  0.01
+10F 17
+10F 17
+Imaginea:  4_35 Puncte task 1:  0.025 Puncte task 2:  0.01
+10E 10
+10E 10
+Imaginea:  4_36 Puncte task 1:  0.025 Puncte task 2:  0.01
+9F 10
+9F 10
+Imaginea:  4_37 Puncte task 1:  0.025 Puncte task 2:  0.01
+8F 7
+8F 7
+Imaginea:  4_38 Puncte task 1:  0.025 Puncte task 2:  0.01
+7F 3
+7F 3
+Imaginea:  4_39 Puncte task 1:  0.025 Puncte task 2:  0.01
+7E 4
+7E 4
+Imaginea:  4_40 Puncte task 1:  0.025 Puncte task 2:  0.01
+9E 6
+9E 6
+Imaginea:  4_41 Puncte task 1:  0.025 Puncte task 2:  0.01
+8E 60
+8E 60
+Imaginea:  4_42 Puncte task 1:  0.025 Puncte task 2:  0.01
+11E 4
+11E 4
+Imaginea:  4_43 Puncte task 1:  0.025 Puncte task 2:  0.01
+11J 7
+11J 7
+Imaginea:  4_44 Puncte task 1:  0.025 Puncte task 2:  0.01
+10D 7
+10D 7
+Imaginea:  4_45 Puncte task 1:  0.025 Puncte task 2:  0.01
+12E 14
+12E 14
+Imaginea:  4_46 Puncte task 1:  0.025 Puncte task 2:  0.01
+6F 10
+6F 10
+Imaginea:  4_47 Puncte task 1:  0.025 Puncte task 2:  0.01
+5F 13
+5F 13
+Imaginea:  4_48 Puncte task 1:  0.025 Puncte task 2:  0.01
+4F 3
+4F 3
+Imaginea:  4_49 Puncte task 1:  0.025 Puncte task 2:  0.01
+3F 10
+3F 10
+Imaginea:  4_50 Puncte task 1:  0.025 Puncte task 2:  0.01
+Puncte task 3  0.43999999999999995
+Total puncte =  8.839999999999996
+8.839999999999996

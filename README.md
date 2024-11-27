@@ -33,8 +33,5 @@ To run all tasks, you only need to make two simple adjustments:
     Open the [mathable.ipynb](mathable.ipynb) notebook and update the last cell to specify your input and output directories. For example:
 
     ```py
-    predict(
-        input_dir='evaluare/fake_test',
-        output_dir='evaluare/fisiere_solutie/352_Scarlat_Marius'
-    )
+   predict(input_dir='evaluation/test', output_dir='evaluation/predictions')
     ```

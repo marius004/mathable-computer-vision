@@ -11,22 +11,39 @@ color_lb, color_ub = np.array([100, 50, 50]), np.array([140, 255, 255])
 mask = cv.inRange(hsv_image, color_lb, color_ub)
 ```
 
+Additional preprocessing steps are applied to refine the mask:
+
+* Morphological Operations:
+    Closing and opening operations smooth the mask and remove noise.
+    ```py
+    kernel = cv.getStructuringElement(cv.MORPH_RECT, (7, 7))
+    mask = cv.morphologyEx(mask, cv.MORPH_CLOSE, kernel)
+    mask = cv.morphologyEx(mask, cv.MORPH_OPEN, kernel)
+    ```
+
+* Histogram Equalization:
+    Enhances the contrast of the mask for better edge detection.
+    ```py
+    mask = cv.equalizeHist(mask)
+    ```
+
 The resulting mask image is shown below:
+
 ![Mask](./assets/mask.jpg)
 
-Once the board is isolated in the mask, the edges are highlighted using the Canny edge detection algorithm.
+Once the board is isolated in the mask, the edges are highlighted using the Canny edge detection algorithm:
 
-The resulting edges are shown below:
-![Mask](./assets/edges.jpg)
+![Edges](./assets/edges.jpg)
 
 The largest contour detected is the the Mathable board.
 The corners (top-left, top-right, bottom-left, bottom-right) of the board are identified by analyzing the points on the contour, and a perspective warp is applied to align the board.
 
 The resulting board is shown below:
-![Board](assets/board.jpg)
+
+![Board](./assets/board.jpg)
 
 ## 2. Grid Extraction - extract_grid
-After applying the perspective warp transformation, the board is aligned and resized to a static size. This makes it straightforward to crop out the areas that are not part of the grid. I determined that a margin of 14% effectively isolates the grid region:
+After applying the perspective warp transformation, the board is aligned and resized to a static size. This makes it straightforward to crop out the areas that are not part of the grid.
 
 ```py
 def extract_grid(image, width, height, margin_percentage):
@@ -35,10 +52,11 @@ def extract_grid(image, width, height, margin_percentage):
 ```
 
 The resulting grid is shown below:
+
 ![Grid](assets/grid.jpg)
 
 ## 3. Grid processing
-To further enhance the grid, I added vertical and horizontal lines with a thickness of 15px across the entire image. These lines effectively reduce the noise caused by the edges of the Mathable pieces, which might otherwise interfere with the detection of individual grid cells.
+To further enhance the grid, I added vertical and horizontal lines with a thickness of ```10px``` across the entire image. These lines effectively reduce the noise caused by the edges of the Mathable pieces, which might otherwise interfere with the detection of individual grid cells.
 
 To enhance the grid and reduce noise caused by Mathable pieces, the following steps are applied:
 
@@ -67,6 +85,7 @@ _, binary_grid = cv.threshold(grid, 65, 255, cv.THRESH_BINARY_INV)
 Dilation is a crucial step, ensuring that digits are well-connected and easily identifiable. After experimenting with various kernel sizes, I determined that a ```6×6``` kernel delivers the best results, effectively bridging gaps within the digits.
 
 The result of the transformation is shown below:
+
 ![Grid to Binary Grid](assets/grid-to-binary-grid.jpg)
 
 
@@ -75,6 +94,7 @@ The result of the transformation is shown below:
 The final step involves cleaning the grid by identifying and retaining the two largest connected components based on their area, provided their size exceeds a predefined threshold. This ensures that only the most significant components are kept, while smaller, irrelevant components are discarded, leaving a cleaner grid for further analysis.
 
 The result of the cleaning transformation is shown below:
+
 ![Binary to Cleaned Grid](assets/binary-to-cleaned-grid.jpg)
 
 ## 5. Classification
@@ -86,42 +106,43 @@ In this step, the numbers in each grid cell are recognized by comparing connecte
 ### Steps:
 * Identify and extract connected regions in each grid cell using ```cv.connectedComponentsWithStats```
 * Retain the two largest components, sorted by horizontal position to ensure correct digit order.
-* Resize each component to match the dimensions of digit templates and calculates similarity using the ```Structural Similarity Index (SSIM)```.
+* Resize each template to match the dimensions of the component and calculate the similarity using the ```Structural Similarity Index (SSIM)```.
 * Combine recognized digits (e.g., 1 and 2 → 12) and return the final number.
 
 Here is the code that implements this process:
 
 ```py
 def classify_number(patch):
-    num_labels, labels, stats, centroids = cv.connectedComponentsWithStats(patch, connectivity=8)
-    valid_components = range(1, num_labels)
-    
-    if not valid_components:
-        return -1
-    
-    largest_components = sorted(valid_components, key=lambda i: stats[i, cv.CC_STAT_AREA], reverse=True)[:2]
-    largest_components.sort(key=lambda i: stats[i, cv.CC_STAT_LEFT])
-    
-    best_similarity, best_digit = -1, -1
-    number = 0
-    
-    for i in largest_components:
-        x, y, w, h = stats[i, cv.CC_STAT_LEFT], stats[i, cv.CC_STAT_TOP], stats[i, cv.CC_STAT_WIDTH], stats[i, cv.CC_STAT_HEIGHT]
-        
-        best_similarity, best_digit, best_template = -1, -1, None
-        for digit in DIGIT_MAP[number]: 
-            template = cv.imread(f"digits/{digit}.jpg", cv.IMREAD_GRAYSCALE)
-            component = cv.resize(patch[y:y+h, x:x+w], template.shape[:2][::-1])
-
-            similarity = (1 + ssim(template, component)) / 2
-            if similarity > best_similarity:
-                best_similarity = similarity
-                best_digit = digit
-                best_template = component
-        
-        number = number * 10 + best_digit
-    
-    return number
+   num_labels, labels, stats, centroids = cv.connectedComponentsWithStats(patch, connectivity=8)
+   valid_components = range(1, num_labels)
+  
+   if not valid_components:
+       return -1
+  
+   largest_components = sorted(valid_components, key=lambda i: stats[i, cv.CC_STAT_AREA], reverse=True)[:2]
+   largest_components.sort(key=lambda i: stats[i, cv.CC_STAT_LEFT])
+  
+   best_similarity, best_digit = -1, -1
+   number = 0
+  
+   for i in largest_components:
+       x, y, w, h = stats[i, cv.CC_STAT_LEFT], stats[i, cv.CC_STAT_TOP], stats[i, cv.CC_STAT_WIDTH], stats[i, cv.CC_STAT_HEIGHT]
+      
+       best_similarity, best_digit, best_template = -1, -1, None
+       for digit in DIGIT_MAP[number]:
+           template = cv.imread(f"digits/{digit}.jpg", cv.IMREAD_GRAYSCALE)
+           template_resized = cv.resize(template, (w, h))
+          
+           component = patch[y:y+h, x:x+w]
+           similarity = (1 + ssim(template_resized, component)) / 2
+           if similarity > best_similarity:
+               best_similarity = similarity
+               best_digit = digit
+               best_template = component
+      
+       number = number * 10 + best_digit
+  
+   return number
 ```
 
 ## 6. Score calculation
@@ -198,11 +219,18 @@ The formula for calculating the score is:
 Where:
 
 * ```count```: The total number of valid moves derived from adjacent cells
-* ```value```: The numerical value present in grid[row, col]
+* ```value```: The numerical value present in ```grid[row, col]```
 * ```multiplier```: If ```[row, col]``` is designated to double or triple the score, the multiplier is set to ```2``` or ```3```, respectively. By default, the multiplier is set to ```1``` if no special scoring conditions apply.
 
 Here is the Python code to calculate the score given ```[row, col]```:
 ```py
+OPERATIONS_MAP = {
+    "+": lambda x, y: x + y,
+    "-": lambda x, y: x - y,
+    "*": lambda x, y: x * y,
+    "/": lambda x, y: x // y if (y != 0 and x % y == 0) else None
+}
+
 def calculate_score(grid, row, col, value):  
     operation = OPERATIONS[row][col]
     count = 0
@@ -215,6 +243,7 @@ def calculate_score(grid, row, col, value):
         for function in operations:
             if function(x, y) == value or function(y, x) == value: 
                 count += 1
+                break
 
     return count * value * (int(operation) if operation in "23" else 1)
 ```
